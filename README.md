@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Dropdown menu is not responsive and the movie listing component was not created. Since I did not want to miss the deadline of today I compiled what I've done in the given time. 
 ## Available Scripts
 
 In the project directory, you can run:
