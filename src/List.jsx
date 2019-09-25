@@ -27,6 +27,7 @@ class List extends Component {
                     ))}
             
                 </select> */
+            //reading the results we return an option mapped by name and receiving the character information in the following component
             <div className="" >
                 {
                     people.map((p) => {

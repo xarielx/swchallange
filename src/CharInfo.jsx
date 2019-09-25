@@ -11,6 +11,7 @@ class CharInfo extends Component {
         this.open = this.open.bind(this);
         this.close = this.close.bind(this);
     }
+    //functions to perform expansion on description
     open() {
         this.setState({ expanded: true })
     }
@@ -20,7 +21,7 @@ class CharInfo extends Component {
 
     render() {
         const info = this.props.charInfo;
-        if (!this.state.expanded) {
+        if (!this.state.expanded) { //opens and closes the description field
             return <p className="btn btn-info" onClick={this.open}>Show Description</p>
         }
         return (
